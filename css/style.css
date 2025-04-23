@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 30px;
+  padding: 6px;
+  border: 1px solid lightgrey;
+  box-shadow: 1px 5px 5px gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  padding: 8px;
+  border-radius: 10px;
+  border: none;
+  background-color: lightgray;
+}
+
+.lbox {
+  display: flex;
+  gap: 4px;
+}
+
+.mbox {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+
+.rbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6px;
+}
+
+.picslink {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.picslink:hover {
+  margin: 0 -30px 0 -30px;
+  width: 80px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #0061ff;
+}
+
+.iconbutton {
+  width: 20px;
+  height: 20px;
+  background-color: lightgray;
+  padding: 2px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
+
+.iconbutton1 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: lightgray;
+  padding: 2px;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
+
+.iconbutton2 {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 50%;
+}
+
+.iconbutton:active {
+  background-color: gray;
+}
+
+.iconbutton1:active {
+  background-color: gray;
+}
+
+.iconbutton2:active {
+  background-color: gray;
+}
+
+.iconbuttonbadge1 {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 10px;
+  height: 10px;
+  font-size: 8px;
+  background: red;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.iconbuttonbadge2 {
+  position: absolute;
+  top: 12px;
+  right: -1px;
+  width: 6px;
+  height: 6px;
+  font-size: 8px;
+  background: lightgrey;
+  color: black;
+  border: 0.5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+img {
+  width: 100%;
+}
+
+.pro {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  overflow: hidden;
+}
